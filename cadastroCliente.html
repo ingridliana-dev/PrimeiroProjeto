@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Cliente</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-container">
+            <img src="icon.png" alt="akumanomi" width="50px">
+            <h1>Cadastro de Clientes</h1>
+        </div>
+        <form action="#">
+
+            <div class="input-container">
+                <label for="txtNome">Nome:</label>
+                <input type="text" name="txtNome" id="txtNome">
+            </div>
+
+            <div class="input-container">
+                <label for="txtSobrenome">Sobrenome:</label>
+                <input type="text" name="txtSobrenome" id="txtSobrenome">
+            </div>
+
+            <div class="input-container">
+                <label for="txtCPF">CPF:</label>
+                <input type="text" name="txtCPF" id="txtCPF">
+            </div>
+
+            <div class="input-container">
+
+                <label for="txtTelefone">Telefone:</label>
+                <input type="text" name="txtTelefone" id="txtTelefone">
+            </div>
+
+
+            <div class="input-container">
+                <label for="opGenero">Gênero:</label>
+                <select name="opGenero" id="opGenero">
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="out">Outro</option>
+                </select>
+            </div>
+
+
+            <p>Dados para acesso:</p>
+            <div class="input-container">
+                <label for="txtEmail">E-mail:</label>
+                <input type="email" name="txtEmail" id="txtEmail">
+            </div>
+
+
+            <div class="input-container">
+                <label for="txtSenha">Crie sua Senha:</label>
+                <input type="password" name="txtSenha" id="txtSenha">
+            </div>
+
+
+
+            <button>Cadastrar</button>
+
+        </form>
+        <p>
+            Já possui cadastro?
+            <a href="login.html">Faça o Login</a>
+        </p>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
