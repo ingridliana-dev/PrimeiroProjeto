@@ -20,112 +20,127 @@
         </div>
         <form id="form" action="#">
 
-            <label for="txtNome">Nome</label>
-            <div class="input-container">                 
-                <input type="text" name="txtNome" id="txtNome">
+            <div class="form-row">
 
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Digite seu primeiro nome.
-                    </span>
+                <div class="form-field">
+                    <label for="txtNome">Nome Completo</label>
+                    <div class="input-container">
+                        <input type="text" name="txtNome" id="txtNome">
+
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Digite seu nome completo.
+                            </span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="form-field">
+                    <label for="txtCPF">CPF</label>
+                    <div class="input-container">
+                        <input type="text" name="txtCPF" id="txtCPF">
+
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Digite seu CPF, apenas números.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+</div>
+<div class="form-row">
+
+                <div class="form-field">
+                    <label for="txtTelefone">Celular/Whatsapp</label>
+                    <div class="input-container">
+                        <input type="tel" maxlength="15" onkeyup="handlePhone(event)">
+
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Digite seu Celular ou Whatsapp, apenas números.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="opGenero">Gênero</label>
+                    <div class="input-container ">
+                        <select name="opGenero" id="opGenero">
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="out">Outro</option>
+                        </select>
+
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Escolha o gênero que mais te identifica.
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+
             </div>
 
-            <label for="txtSobrenome">Sobrenome</label>
-            <div class="input-container">                
-                <input type="text" name="txtSobrenome" id="txtSobrenome">
 
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Digite seu sobrenome.
-                    </span>
-                </div>
-            </div>
-
-            <label for="txtCPF">CPF</label>
-            <div class="input-container">                
-                <input type="text" name="txtCPF" id="txtCPF">
-
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Digite seu CPF, apenas números.
-                    </span>
-                </div>
-            </div>
-
-            <label for="txtTelefone">Celular/Whatsapp</label>
-            <div class="input-container">                
-                <input type="tel" maxlength="15" onkeyup="handlePhone(event)">
-
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Digite seu Celular ou Whatsapp, apenas números.
-                    </span>
-                </div>
-            </div>
-
-            <label for="opGenero">Gênero</label>
-            <div class="input-container ">                
-                <select name="opGenero" id="opGenero">
-                    <option value="masc">Masculino</option>
-                    <option value="fem">Feminino</option>
-                    <option value="out">Outro</option>
-                </select>
-
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Escolha o gênero que mais te identifica.
-                    </span>
-                </div>
-
-            </div>            
 
             <hr>
+            <h2>Dados para acesso</h2>
 
-            <h2>Dados para acesso:</h2>
-            <label for="txtEmail">E-mail</label>
-            <div class="input-container">                
-                <input type="email" name="txtEmail" id="txtEmail">
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="txtEmail">E-mail</label>
+                    <div class="input-container">
+                        <input type="email" name="txtEmail" id="txtEmail">
 
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Use seu melhor email para se cadastrar.
-                    </span>
-                </div>
-            </div>
-
-            <label for="txtSenha">Crie sua Senha</label>
-            <div class="input-container">                
-                <input type="password" name="txtSenha" id="txtSenha">
-
-                <div class="tooltip">
-                    <a href="#" target="_blank">
-                        <img />
-                    </a>
-                    <span class="tooltiptext">
-                        Crie uma senha segura e anote em um lugar seguro.
-                    </span>
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Use seu melhor email para se cadastrar.
+                            </span>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="form-field">
+                    <label for="txtSenha">Crie sua Senha</label>
+                    <div class="input-container">
+                        <input type="password" name="txtSenha" id="txtSenha">
+
+                        <div class="tooltip">
+                            <a href="#" target="_blank">
+                                <img />
+                            </a>
+                            <span class="tooltiptext">
+                                Crie uma senha segura e anote em um lugar seguro.
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+            
+
+
+
 
             <button>Cadastrar</button>
 
@@ -145,8 +160,8 @@
 <script>
 
     // Coloque o id do form e da caixa de texto do cpf
-    var idForm="form";
-    var idCPF="txtCPF";
+    var idForm = "form";
+    var idCPF = "txtCPF";
 
     function validaCPF(cpf) {
         cpf = cpf.replace(/\D+/g, '');
