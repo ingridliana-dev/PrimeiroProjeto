@@ -3,7 +3,7 @@
 
 ## Projeto em Desenvolvimento...
 
-### [Confira o que já está pronto clicando aqui](https://ingridliana-dev.github.io/PrimeiroProjeto/index.html) 👈
+### <a href="https://ingridliana-dev.github.io/PrimeiroProjeto/index.html" target="_blank"> Confira o que já está pronto clicando aqui 👈 </a>
 
 ## Telas Disponíveis
 
