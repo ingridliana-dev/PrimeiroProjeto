@@ -31,6 +31,7 @@ body {
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
   animation: zoomIn;
   animation-duration: 1.5s;
+  display: block;
   
   & h2 {
     text-align: center;
@@ -63,15 +64,20 @@ body {
     box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.4);
   }
 
-  & a {
-    display: block; 
-    text-align: right;
+  & .box-a{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  & a {        
+    padding: 0px;
+    margin: 0px;    
     text-decoration: none;
     color: #fff;
     font-size: clamp(0.75rem, 0.7083rem + 0.2083vw, 0.875rem);
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
-       
   }
 
   & a:hover {
@@ -91,13 +97,7 @@ body {
     display: block; 
   }
 
-  & p a {
-    text-align: center;
-    font-weight: bold;
-       
-  }
-
-  & button {
+  & button {    
     border: none;
     height: 50px;
     width: 150px;
