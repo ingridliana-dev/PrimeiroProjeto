@@ -22,7 +22,15 @@ Desde sua interface (web) até sua integração com banco de dados.
 ## Telas Disponíveis
 
 - Tela de Login - (index.html)
+![Tela Login](imagens/telaLogin.gif)
+
 - Tela de Cadastro - (cadastroCliente.html)
+![Tela Cadastro](imagens/telaCadastro.gif)
+
 - Tela de Esqueci a Senha - (esqueciSenha.html)
+![Tela Cadastro](imagens/esqueciSenha.gif)
 
 
+## Informações adicionais
+
+> As telas Login e Esqueci a Senha possuem uma imagem de fundo que atualiza de forma aleatória.
