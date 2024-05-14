@@ -19,6 +19,7 @@ Desde sua interface (web) até sua integração com banco de dados.
 
 ### Bibliotecas utilizadas
 - [Animate.css](https://animate.style)
+- 
 
 ## Telas Disponíveis
 
