@@ -6,6 +6,7 @@ Este projeto faz parte do meu estudo em desenvolvimento fullstack.
 Meu objetivo é aprender sobre todas as etapas de desenvolvimento de um sistema.  
 Desde sua interface (web) até sua integração com banco de dados.
 
+
 ## Principais Tecnologias
 ### Front-end
 - HTML
