@@ -86,11 +86,25 @@
                 <div class="form-field">
                     <label for="opGenero">Gênero</label>
                     <div class="input-container ">
-                        <select name="opGenero" id="opGenero">
-                            <option value="masc">Masculino</option>
-                            <option value="fem">Feminino</option>
-                            <option value="out">Outro</option>
-                        </select>
+                        <div class="rdDiv">
+                            <div class="rdOp">
+<input type="radio" name="opGenero" id="opMasc" value="Masculino">
+<label for="opMasc" class="rdLabel">Masculino</label>
+                            </div>
+                            
+<div class="rdOp">
+<input type="radio" name="opGenero" id="opFem" value="Feminino">
+<label for="opFem">Feminino</label>
+</div>
+                            
+
+                            <div class="rdOp">
+<input type="radio" name="opGenero" id="opOutro" value="Outro">
+<label for="opOutro">Outro</label>
+                            </div>
+                            
+                        </div>
+
 
                         <div class="tooltip">
                             <a href="#" target="_blank">
@@ -167,6 +181,8 @@
         </p>
     </div>
 </body>
+
+<script src="script.js"></script>
 
 <script>
 
