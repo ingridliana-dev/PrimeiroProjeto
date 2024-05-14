@@ -19,7 +19,7 @@ Desde sua interface (web) até sua integração com banco de dados.
 
 ### Bibliotecas utilizadas
 - [Animate.css](https://animate.style)
-- 
+- [Unsplash](https://source.unsplash.com/1600x900/?landscape)
 
 ## Telas Disponíveis
 
@@ -36,3 +36,4 @@ Desde sua interface (web) até sua integração com banco de dados.
 ## Informações adicionais
 
 > As telas Login e Esqueci a Senha possuem uma imagem de fundo que atualiza de forma aleatória.
+> Foi usado o Unsplash para gerar as imagens aleatórias
