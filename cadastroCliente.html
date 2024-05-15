@@ -70,7 +70,7 @@
                 <div class="form-field">
                     <label for="txtTelefone">Celular/Whatsapp</label>
                     <div class="input-container">
-                        <input type="tel" maxlength="15" onkeyup="handlePhone(event)">
+                        <input id="txtTelefone" type="tel" maxlength="15" onkeyup="handlePhone(event)">
 
                         <div class="tooltip">
                             <a href="#" target="_blank">
@@ -90,7 +90,7 @@
                         <div class="rdDiv">
 
                             <div class="rdOp">
-                                <input type="radio" name="opGenero" id="opMasc" value="Masculino">
+                                <input type="radio" name="opGenero" id="opMasc" value="Masculino" checked="checked" >
                                 <label for="opMasc" class="rdLabel">Masculino</label>
                             </div>
 
@@ -164,7 +164,7 @@
 
             </div>
 
-            <button type="submit">Cadastrar</button>
+            <button id="btn-enviar" type="submit">Cadastrar</button>
 
         </form>
 
@@ -194,7 +194,7 @@
     </div>
 </body>
 
-<script src="script.js"></script>
+<script src="cadastroCliente.js"></script>
 
 <script>
 
@@ -206,20 +206,20 @@
         cpf = cpf.replace(/\D+/g, '');
         if (cpf.length !== 11) return false;
 
-        let soma = 0;
-        let resto;
-        if (/^(\d)\1{10}$/.test(cpf)) return false;
+        // let soma = 0;
+        // let resto;
+        // if (/^(\d)\1{10}$/.test(cpf)) return false;
 
-        for (let i = 1; i <= 9; i++) soma += parseInt(cpf.substring(i - 1, i)) * (11 - i);
-        resto = (soma * 10) % 11;
-        if ((resto === 10) || (resto === 11)) resto = 0;
-        if (resto !== parseInt(cpf.substring(9, 10))) return false;
+        // for (let i = 1; i <= 9; i++) soma += parseInt(cpf.substring(i - 1, i)) * (11 - i);
+        // resto = (soma * 10) % 11;
+        // if ((resto === 10) || (resto === 11)) resto = 0;
+        // if (resto !== parseInt(cpf.substring(9, 10))) return false;
 
-        soma = 0;
-        for (let i = 1; i <= 10; i++) soma += parseInt(cpf.substring(i - 1, i)) * (12 - i);
-        resto = (soma * 10) % 11;
-        if ((resto === 10) || (resto === 11)) resto = 0;
-        if (resto !== parseInt(cpf.substring(10, 11))) return false;
+        // soma = 0;
+        // for (let i = 1; i <= 10; i++) soma += parseInt(cpf.substring(i - 1, i)) * (12 - i);
+        // resto = (soma * 10) % 11;
+        // if ((resto === 10) || (resto === 11)) resto = 0;
+        // if (resto !== parseInt(cpf.substring(10, 11))) return false;
 
         return true;
     }
@@ -259,5 +259,7 @@
     }
 
 </script>
+
+<script src="cadastroCliente.js"></script>
 
 </html>
