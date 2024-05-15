@@ -167,7 +167,7 @@ body {
 
 .input-container {
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   margin: 0;
   margin-bottom: 10px;
   align-items: center;
@@ -198,18 +198,21 @@ body {
     color: #fff;
   }
 
-  & .rdDiv{
+  & .rdDiv{    
+    height: 100%;
     display: flex;
     flex-grow: 1;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;    
+    padding: 10px;
+    flex-wrap: wrap;
   }
 
   & .rdDiv .rdOp{
     display: flex;
     align-items: center;
-    height: 100%;
+    justify-content: flex-start;
+    padding-right: 10px;
   }
 
   & .rdDiv .rdOp label{
@@ -234,6 +237,8 @@ body {
   & .form-row {
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -242,6 +247,12 @@ body {
     flex-grow: 1;
     flex-basis: 45%;
   }
+
+  & .box-p {
+    margin: 10px;
+  }
+
+
 }
 
 .tooltip {
