@@ -24,6 +24,7 @@ select:-webkit-autofill:focus {
 
 body {
   background: url("https://source.unsplash.com/1600x900/?landscape");
+  background: url("https://images.unsplash.com/photo-1714779573259-216b0cf746be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
